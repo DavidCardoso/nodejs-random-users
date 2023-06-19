@@ -1,0 +1,17 @@
+{
+  "name": "nn-live-coding",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "run-build": "yarn build && node build/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  }
+}
